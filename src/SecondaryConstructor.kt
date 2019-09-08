@@ -3,13 +3,13 @@ fun main(args: Array<String>) {
     var vehicles1 = Vehicles("CAR","COROLLA")
     vehicles1.printVehicles()
 
-    // 3rd parameter posoible to add due to secondary constructor call
+    // 3rd parameter possible to add due to secondary constructor call with primary constructor
     var vehicles2 = Vehicles("BUS","Mahindra","red")
     vehicles2.printVehicles()
 
 }
 
-// below line is primary COnstructor
+// below line is primary Constructor
 class Vehicles constructor(var name: String, var brand:String)
 {
     var bodyColor:String = "Not Mentioned"
