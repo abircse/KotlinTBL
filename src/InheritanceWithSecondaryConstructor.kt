@@ -4,7 +4,6 @@ fun main(args: Array<String>) {
     DerivedClass("Hello From Kotlin")
 
 }
-
 // EXAMPLE OF how to use SECONDARY CONSTRUCTOR in both base class & Derived Class
 open class BaseClass1 (message:String)
 {
