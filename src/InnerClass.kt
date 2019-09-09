@@ -1,7 +1,7 @@
 fun main(args: Array<String>) {
 
     // create object for inner class call from inside of outer class
-    var INCLASS = OuterClass().Inner()
+    val INCLASS = OuterClass().Inner()
     INCLASS.findSum()
 }
 
@@ -16,7 +16,7 @@ class OuterClass
     {
         fun findSum()
         {
-            var sum = x + y
+            val sum = x + y
             println("Sum is $sum")
         }
 
