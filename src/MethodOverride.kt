@@ -19,7 +19,13 @@ class  ChildClass:ParentClass()
 {
     // this is called Method Overriding
     override fun showMessage() {
+
+        // now in out showing only child class method
+        // If We want to show call parent class method to show fun message just class super keyword with fun
+        super.showMessage()
         println("Hello From Child Class Method")
     }
+
+
 
 }
